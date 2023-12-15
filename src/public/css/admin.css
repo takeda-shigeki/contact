@@ -1,0 +1,189 @@
+.header,
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+
+.header__title {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search__content {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+.name_and_sex {
+    display: flex;
+}
+
+.form__group {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: auto;
+    width: 400px;
+}
+
+.form__group-sex {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: auto;
+    width: 470px;
+}
+
+.form__group-date {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: auto;
+    width: 750px;
+}
+
+.form__group-title {
+    width: 150px;
+    padding-top: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form__group-title--item {
+    margin-left:30px;
+    margin-top: -20px;
+}
+
+.form__group-input--name,
+.form__group-input--email {
+    width: 45%;
+}
+
+.form__group-input--date {
+    display: flex;
+    width: 60%;
+}
+
+.form__group-input--name---box, .form__group-input--email---box {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__group-input--date---box {
+    width: 40%;
+    height: 45px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__group-input--sex {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.form__group-input--sex---both,
+.form__group-input--sex---male,
+.form__group-input--sex---female {
+    block-size: 40px;
+    inline-size: 45px;
+}
+
+.form__group-input--sex---male,
+.form__group-input--sex---female {
+    margin-left: 35px;
+}
+
+.form__button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-reset {
+    width: 10%;
+    height: 30px;
+    border: none;
+    font-size: 13px;
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 13px;
+}
+
+tr {
+    height: auto;
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+.delete-form__button {
+    width: 100px;
+}
+
+.delete-form__button-submit {
+    margin-right: 0px;
+    padding: 5px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ellipsis {
+    width: 340px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ellipsis:hover {
+    white-space: normal;
+}
+
+
+

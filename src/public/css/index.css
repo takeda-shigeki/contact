@@ -1,0 +1,146 @@
+.header, .form__button {
+    display: flex;
+    justify-content: center;
+}
+
+.header__title {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form__group {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.form__group-title {
+    width: 180px;
+    padding-top: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form__group-title--item {
+    margin-top: -20px;
+}
+
+.form__group-title--required {
+    color: red;
+}
+
+.form__group-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form__group-input--name {
+    width: 48.5%;
+}
+
+.form__group-input--name---box {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__group-input--example {
+    margin-top: 8px;
+    opacity: 0.35;
+}
+
+.form__group-input--sex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.form__group-input--sex---male, .form__group-input--sex---female {
+    block-size: 45px;
+    inline-size: 45px;
+}
+
+.form__group-input--sex---female {
+    margin-left: 55px;
+}
+
+.form__group-input--email, .form__group-input--postal_code, .form__group-input--address, .form__group-input--building, .form__group-input--inquiry {
+    width: 100%;
+}
+
+.form__group-input--email---box, .form__group-input--postal_code---box, .form__group-input--address---box, .form__group-input--building---box {
+    height: 45px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__group-input--postal_code {
+    width: 100%;
+    display: flex;
+}
+
+.form__group-input--postal_code---mark {
+    width: 5%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form__group-input--postal_code---block {
+    width: 95%;
+}
+
+.form__group-input--postal_code---box {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__group-input--inquiry---box {
+    height: 150px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form__error {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form__error-message {
+    height: 20px;
+    text-align: left;
+    list-style: none;
+    color: red;
+    font-size: 12px;
+}
+
+.form__button-submit {
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
